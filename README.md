@@ -8,12 +8,12 @@ A demo using [tiled-diffusion](https://github.com/madaror/tiled-diffusion) to ge
 
 ```
 .
-├── dpt_large_huggingface_flattening.ipynb        # Optional additional demo (not required for tiling)
-├── tiled_diffusion_self_tiling.ipynb             # ✅ Main notebook to run
+├── dpt_large_huggingface_flattening.ipynb        # Optional addition for texture extraction (not required for tiling)
+├── tiled_diffusion_self_tiling.ipynb             # Main notebook to run
 ├── example_images/
-│   ├── input.jpg
-│   ├── self_tile_result.png
-│   └── sample_640x426.jpeg
+│   ├── wood.jpg
+│   ├── stain.jpg
+│   └── cushion.jpg
 ├── README.md
 └── requirements.txt
 ```
