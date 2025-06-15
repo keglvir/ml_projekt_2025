@@ -1,6 +1,6 @@
 # Tiled Diffusion Self-Tiling
 
-A demo using [tiled-diffusion](https://github.com/madaror/tiled-diffusion) to generate self-tiled images with Stable Diffusion. Includes example notebooks and images, and supports CPU-only execution (albeit slowly).
+A demo using [tiled-diffusion](https://github.com/madaror/tiled-diffusion) to generate self-tiled images with Stable Diffusion. Includes example notebooks and images, and supports CPU-only execution.
 
 ---
 
@@ -21,9 +21,8 @@ A demo using [tiled-diffusion](https://github.com/madaror/tiled-diffusion) to ge
 ---
 
 ## Setup Instructions
-
 ### 1. (Recommended) Create a virtual environment
-
+```
 ```bash
 python -m venv venv
 source venv/bin/activate  # on Windows: venv\Scripts\activate
@@ -53,6 +52,7 @@ xformers==0.0.20
 ```bash
 git clone https://github.com/madaror/tiled-diffusion.git
 cd tiled-diffusion
+```
 
 ---
 
@@ -68,6 +68,12 @@ Follow the steps inside to:
 * Run the self-tiling generation
 * Save and view the resulting tile
 
+For creating a flattened image, better for self tiling if contains texture on 3D surface, use notebook:
+
+> `dpt_large_huggingface_flattening.ipynb`
+
+and use it's output for self-tiling.
+
 ---
 
 ## Notes
@@ -78,6 +84,7 @@ Follow the steps inside to:
 
 ---
 
-## License
+## 📄 License
 
 This project integrates with [`tiled-diffusion`](https://github.com/madaror/tiled-diffusion), which is under its own license. Refer to that repo for licensing details.
+
