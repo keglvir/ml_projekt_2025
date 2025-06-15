@@ -1,0 +1,15 @@
+numpy==1.26.4
+torch==2.0.1+cu118
+torchvision==0.15.2+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+diffusers==0.20.2
+transformers==4.31.0
+xformers==0.0.20
+timm==0.9.12
+huggingface_hub==0.16.4
+accelerate==0.21.0
+pyvips
+opencv-python
+matplotlib
+Pillow==9.5.0
